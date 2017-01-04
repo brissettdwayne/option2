@@ -1,0 +1,31 @@
+.jumbotron {
+  background-color: #373a3c!important;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.donation-text {
+  font-size: .7em;
+}
+
+.navy-blue {
+  background-color: #000034;
+}
+
+.num-border {
+  border-right: thick solid #5cb85c;
+}
+
+.grey {
+  background-color: #919191;
+}
+
+.sample-bg {
+  background-color: #373a3c;
+}
