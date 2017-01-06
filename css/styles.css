@@ -1,9 +1,11 @@
-.jumbotron {
-  background-color: #373a3c!important;
-}
-
 .white {
   color: #FFFFFF;
+}
+
+.btn {
+  border-radius: 25px;
+  padding-left: 1.7em;
+  padding-right: 1.7em;
 }
 
 a:hover {
@@ -26,6 +28,61 @@ a:hover {
   background-color: #919191;
 }
 
-.sample-bg {
-  background-color: #373a3c;
+.jumbotron {
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url("../img/helmets.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
+  padding-bottom: 7em;
+}
+
+.mid-bg {
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url("../img/field-lights.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.mid-p {
+  font-size: 1.6em;
+  font-style: italic;
+}
+
+.num-p {
+  font-size: 3.4em;
+}
+
+.green-span {
+  color: green;
+  font-size: 2em;
+}
+
+.fa-phone {
+  color: #5cb85c;
+  margin-right: .2em;
+}
+
+.fa-arrow-circle-right {
+  margin-left: .3em;
+}
+
+.fa-quote-left {
+  color: #5cb85c;
+}
+
+hr {
+  width: 15%;
+  color: #969696;
+  background-color: #969696;
+  height: 5px;
 }
