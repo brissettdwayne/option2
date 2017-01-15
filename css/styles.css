@@ -105,4 +105,8 @@ hr {
   .num-border {
     border-right: none;
   }
+
+  .logo {
+    text-align: center
+  }
 }
