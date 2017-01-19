@@ -118,4 +118,9 @@ hr {
   .logo {
     text-align: center;
   }
+
+  .footer-text {
+    text-align: center;
+    float: none;
+  }
 }
