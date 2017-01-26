@@ -2,6 +2,23 @@ html {
   font-size: 1em;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'norwester';
+    src: url(fonts/norwester.otf);
+}
+
+.stat-font {
+  font-family: 'norwester';
+}
+
+.link-font {
+  font-family: 'Exo', sans-serif;
+}
+
 .signup-btn {
   color: inherit;
 }
@@ -35,7 +52,13 @@ a:hover {
 }
 
 .navy-blue {
-  background-color: #000034;
+  background: -moz-radial-gradient(center, ellipse cover, #000142 0%, #01051c 100%); /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #000142), color-stop(100%, #01051c)); /* safari4+,chrome */
+  background: -webkit-radial-gradient(center, ellipse cover, #000142 0%, #01051c 100%); /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, #000142 0%, #01051c 100%); /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, #000142 0%, #01051c 100%); /* ie10+ */
+  background: radial-gradient(ellipse at center, #000142 0%, #01051c 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000142', endColorstr='#01051c',GradientType=0 ); /* ie6-9 */
 }
 
 .num-border {
@@ -71,6 +94,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+.title {
+  color: #000142;
+}
+
 .mid-p {
   font-size: 1.6em;
   font-style: italic;
@@ -90,13 +117,14 @@ a:hover {
   margin-right: .2em;
 }
 
-.fa-arrow-circle-right {
+.fa-chevron-circle-right {
   margin-left: .3em;
 }
 
 .fa-quote-left {
   color: #5cb85c;
 }
+
 
 hr {
   width: 15%;
